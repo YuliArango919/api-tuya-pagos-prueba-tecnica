@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.Tuya.Pagos.Dtos\App.Tuya.Pagos.Dtos.csproj" />
+    <ProjectReference Include="..\App.Tuya.Pagos.Providers\App.Tuya.Pagos.Providers.csproj" />
+  </ItemGroup>
+
+</Project>

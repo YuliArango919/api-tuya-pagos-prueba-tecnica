@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Tuya.Pagos.Api", "App.Tuya.Pagos.Api\App.Tuya.Pagos.Api.csproj", "{6F46D6FD-F366-496C-A863-26735B24DAA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Tuya.Pagos.Business", "App.Tuya.Pagos.Business\App.Tuya.Pagos.Business.csproj", "{A816D9CA-2470-47CB-9109-52356B08BF03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Tuya.Pagos.Common", "App.Tuya.Pagos.Common\App.Tuya.Pagos.Common.csproj", "{DA9BCF81-90D6-44C2-90D4-60045FC6F3B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Tuya.Pagos.Dtos", "App.Tuya.Pagos.Dtos\App.Tuya.Pagos.Dtos.csproj", "{630AE4ED-FB48-4EFF-B915-B4D20179BCAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Tuya.Pagos.Providers", "App.Tuya.Pagos.Providers\App.Tuya.Pagos.Providers.csproj", "{F14D422F-D11F-442C-8C62-063F69FA111E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F46D6FD-F366-496C-A863-26735B24DAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F46D6FD-F366-496C-A863-26735B24DAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F46D6FD-F366-496C-A863-26735B24DAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F46D6FD-F366-496C-A863-26735B24DAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A816D9CA-2470-47CB-9109-52356B08BF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A816D9CA-2470-47CB-9109-52356B08BF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A816D9CA-2470-47CB-9109-52356B08BF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A816D9CA-2470-47CB-9109-52356B08BF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA9BCF81-90D6-44C2-90D4-60045FC6F3B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA9BCF81-90D6-44C2-90D4-60045FC6F3B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA9BCF81-90D6-44C2-90D4-60045FC6F3B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA9BCF81-90D6-44C2-90D4-60045FC6F3B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630AE4ED-FB48-4EFF-B915-B4D20179BCAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630AE4ED-FB48-4EFF-B915-B4D20179BCAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630AE4ED-FB48-4EFF-B915-B4D20179BCAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630AE4ED-FB48-4EFF-B915-B4D20179BCAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14D422F-D11F-442C-8C62-063F69FA111E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14D422F-D11F-442C-8C62-063F69FA111E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14D422F-D11F-442C-8C62-063F69FA111E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14D422F-D11F-442C-8C62-063F69FA111E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA43796D-1F01-4C6D-A9B7-B15AB7FB9466}
+	EndGlobalSection
+EndGlobal
