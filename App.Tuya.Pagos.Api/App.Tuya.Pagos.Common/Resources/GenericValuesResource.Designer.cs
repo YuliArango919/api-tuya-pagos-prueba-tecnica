@@ -149,5 +149,14 @@ namespace App.Tuya.Pagos.Common.Resources {
                 return ResourceManager.GetString("swVersion", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://localhost:44353/RegistrarPedido.
+        /// </summary>
+        public static string UrlPathLogistica {
+            get {
+                return ResourceManager.GetString("UrlPathLogistica", resourceCulture);
+            }
+        }
     }
 }

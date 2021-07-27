@@ -6,6 +6,6 @@ namespace App.Tuya.Pagos.Providers.Pagos
 {
     public interface IPagosProvider
     {
-        Task<HttpResponseDto<object>> CrearPedido(PedidoTotalDto pedidoEnviado);
+        Task<HttpResponseDto<PedidoTotalDto>> CrearPedido(PedidoTotalDto pedidoEnviado);
     }
 }

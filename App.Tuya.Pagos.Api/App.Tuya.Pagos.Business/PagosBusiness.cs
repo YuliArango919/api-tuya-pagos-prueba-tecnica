@@ -26,15 +26,16 @@ namespace App.Tuya.Pagos.Business
             return await Task.Run(() =>
             {
                 PedidoTotalDto response = GetResponsePedido(pedido, totalSuma);
-                return response;
+                var objResponse = CrearPedidoAsync(response);
+                return objResponse;
             });
         }
 
-        public async Task<object> CrearPedidoAsync(PedidoTotalDto pedidoEnviado)
+        public async Task<PedidoTotalDto> CrearPedidoAsync(PedidoTotalDto pedidoEnviado)
         {
-            HttpResponseDto<object> result = await _pagosProvider.CrearPedido(pedidoEnviado);
+            HttpResponseDto<PedidoTotalDto> result = await _pagosProvider.CrearPedido(pedidoEnviado);
 
-            return result;
+            return result.Objeto;
         }
 
         public static PedidoTotalDto GetResponsePedido(PedidoDto pedido, double TotalSuma)

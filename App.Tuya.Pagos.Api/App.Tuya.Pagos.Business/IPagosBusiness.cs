@@ -6,7 +6,7 @@ namespace App.Tuya.Pagos.Business
     public interface IPagosBusiness
     {
         Task<PedidoTotalDto> FacturarAsync(PedidoDto pedido);
-        Task<object> CrearPedidoAsync(PedidoTotalDto pedidoEnviado);
+        Task<PedidoTotalDto> CrearPedidoAsync(PedidoTotalDto pedidoEnviado);
     }
 }
 

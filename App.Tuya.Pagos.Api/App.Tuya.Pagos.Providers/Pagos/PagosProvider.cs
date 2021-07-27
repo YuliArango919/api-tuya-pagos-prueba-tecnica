@@ -5,6 +5,7 @@ using App.Tuya.Pagos.Dtos.Response;
 using App.Tuya.Pagos.Providers.Generic;
 using System;
 using System.Threading.Tasks;
+using static App.Tuya.Pagos.Common.Resources.GenericValuesResource;
 
 namespace App.Tuya.Pagos.Providers.Pagos
 {
@@ -17,12 +18,12 @@ namespace App.Tuya.Pagos.Providers.Pagos
             _clientHttp = clientHttp ?? throw new ArgumentNullException(nameof(clientHttp));
         }
 
-        public async Task<HttpResponseDto<object>> CrearPedido(PedidoTotalDto pedidoEnviado)
+        public async Task<HttpResponseDto<PedidoTotalDto>> CrearPedido(PedidoTotalDto pedidoEnviado)
         {
             //Url del servicio de logística
-            string URL = "";
+            string URL = UrlPathLogistica;
 
-            ClientTransportDto<HttpResponseDto<object>> message = await _clientHttp.PostAsync<HttpResponseDto<object>>(GetHeadersSettings(URL), pedidoEnviado);
+            ClientTransportDto<HttpResponseDto<PedidoTotalDto>> message = await _clientHttp.PostAsync<HttpResponseDto<PedidoTotalDto>>(GetHeadersSettings(URL), pedidoEnviado);
 
             return message.Data;
         }

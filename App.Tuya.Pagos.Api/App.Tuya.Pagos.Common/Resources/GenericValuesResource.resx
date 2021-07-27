@@ -147,4 +147,7 @@
   <data name="swVersion" xml:space="preserve">
     <value>v1</value>
   </data>
+  <data name="UrlPathLogistica" xml:space="preserve">
+    <value>https://localhost:44353/RegistrarPedido</value>
+  </data>
 </root>
