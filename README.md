@@ -3,13 +3,14 @@
 Una vez se tengan clonados los dos repositorios(api-tuya-pagos-prueba-tecnica y api-tuya-logistica-prueba-tecnica),
 seguir las siguientes instrucciones:
 
-1. Ejecutar en local el Api de pagos: App.Tuya.Pagos.Api (Será el Api que factura y manda a crear el pedido)
-2. Ejecutar en local el Api de logística: App.Tuya.Logistica.Api (Será el Api que guarda el pedido en Bd)
-3. En el Api de pagos se encontrará un método llamado facturar (Este suma el precio de los productos y manda a crear el pedido)
-4. El método "Facturar" recibe un Json en el body, en la parte de abajo de este documento se adjunta un Json de prueba para este método
-5. Una vez el Api de pagos ejecute el método facturar, deberá invocar el Api de logística automáticamente que se encargará de 
+1. Tener en cuenta que ambas Apis se encuentran en la rama "develop"
+2. Ejecutar en local el Api de pagos: "App.Tuya.Pagos.Api" (Será el Api que factura y manda a crear el pedido) 
+3. Ejecutar en local el Api de logística: "App.Tuya.Logistica.Api" (Será el Api que guarda el pedido en Bd)
+4. En el Api de pagos se encontrará un método llamado "facturar" (Este suma el precio de los productos y manda a crear el pedido)
+5. El método "Facturar" recibe un Json en el body, en la parte de abajo de este documento se adjunta un Json de prueba para este método
+6. Una vez el Api de pagos ejecute el método facturar, deberá invocar el Api de logística automáticamente que se encargará de 
 crear el pedido en base de datos
-6. Una vez almacenado el pedido, el Api de logística devolverá como respuesta el pedido que se acaba de crear
+7. Una vez almacenado el pedido, el Api de logística devolverá como respuesta el pedido que se acaba de crear
 
 
 Json de prueba:
